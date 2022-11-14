@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 2em;
+    font-family: 'Kumbh Sans';
+}
+div.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(220, 14%, 75%);
+    padding-bottom: 2em;
+}
+div.navigation ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -22em;
+    color: hsl(219, 9%, 45%);
+}
+div.navigation ul li {
+    padding-left: 1em;
+}
+div.avatar img:nth-of-type(2) {
+    width: 3vw;
+    height: 5vh;
+    margin-bottom: -0.5em;
+    padding-left: 2em;
+}
+div.main img {
+    margin-top: 5em;
+    border-radius: 1em;
+}
+div.main div img {
+    margin-right: 1em;
+    margin-top: 1.5em;
+}
+div.content {
+    display: flex;
+    flex-direction: row;
+}
+div.sidebar {
+    margin-top: 5em;
+    margin-left: 6em;
+}
+div.sidebar p.org_text {
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    font-size: 80%;
+    letter-spacing: 1px;
+    padding-bottom: 1.5em;
+}
+div.sidebar h1 {
+    font-size: 260%;
+    color: hsl(220, 13%, 13%);
+}
+div.sidebar p {
+    color:hsl(219, 9%, 45%);
+    padding-bottom: 2em;
+    padding-top: 2em;
+    margin-right: 3em;
+}
+div.sidebar p.pice_1 {
+    color:hsl(220, 13%, 13%);
+    margin-top: -2em;
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: -3em;
+}
+div.sidebar span.percent_1 {
+    font-size: 65%;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -10px;
+    margin-left: 1em;
+    border-radius: 6px;
+}
+div.sidebar button {
+    padding: 1em;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: hsl(223, 64%, 98%);
+}
+div.sidebar button:nth-of-type(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.sidebar button:nth-of-type(3) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.sidebar button:nth-of-type(2) {
+    margin-left: -0.22em;
+    margin-right: -0.22em;
+}
+div.sidebar button.add_cart {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(26, 100%, 55%);
+    border-color: transparent;
+    border-radius: 10px;
+    font-size: 105%;
+    font-weight: bold;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-left: 1em;
+}
+div.sidebar button.add_cart img {
+    margin-bottom: -5px;
+    margin-right: 1em;
+}
